@@ -6,7 +6,7 @@ const Dotenv = require('dotenv-webpack');
 module.exports = (env) => {
   console.log("NODE_ENV:", env.NODE_ENV);
   return {
-    entry: './src/index.js',
+    entry: './src/js/index.js',
     output: {
       // Le chemin relatif au dossier courant (la racine du projet)
       path: path.resolve(__dirname, 'dist'),
