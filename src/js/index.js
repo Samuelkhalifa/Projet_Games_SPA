@@ -1,5 +1,6 @@
 import './../style/index.scss'; // Attention ici, il faut bien mettre l'extension `.scss`
 import 'bootstrap';
+import "regenerator-runtime/runtime";
 import routes from './routes';
 
 const callRoute = () => {
